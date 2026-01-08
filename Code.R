@@ -191,66 +191,10 @@ p4 <- ggplot(sorfo_mc, aes(x = MinutesGained, y = Mean)) +
 combined <- (p1 | p2) / (p3 | p4)
 combined
 
-library(spData)
-install.packages('spDataLarge',
-                 repos='https://nowosad.github.io/drat/', type='source')
-library(spDataLarge)
-
-library(spDataLarge)
-class(world)
-world$geometry[1]
-library(sf)
-library(ggplot2)
-library(rnaturalearth)
-library(rnaturalearthdata)
-
-world <- ne_countries(scale = "medium", returnclass = "sf")  # "medium" gives reasonable detail
-
-
-
-ggplot(data = world) +
-  geom_sf() +
-  xlab("") + ylab("") +
-  coord_sf(xlim = c(2, 33), ylim = c(57, 72), expand = FALSE) +
-  geom_point(aes(x = 5.320, y = 60.386), colour = "red", size = 3) +
-  geom_point(aes(x = 5.363, y = 60.378), colour = "red", size = 3) +
-  geom_point(aes(x = 6.087, y = 62.147), colour = "red", size = 3) +
-  geom_point(aes(x = 5.326, y = 60.408), colour = "red", size = 3)
-
-
-
-
-library(readxl)
-library(ggplot2)
-library(dplyr)
-library(forcats)
-library(nnet)
-library(lmtest)
-library(generalhoslem)
-library(terra)
-library(tmap)
-library(sf)
-library(rnaturalearth)
-library(rnaturalearthdata)
-library(ggspatial)
-library(reshape) 
-library(viridis)
-library(maps)
-library(spData)
-library(tidyverse)
-library(ggspatial)
-library(gganimate)
-library(gifski)
-library(DescTools)
-library(rcompanion)
-library(vcd)
-library(gtools)
-library(reshape2)
-
-
 ##=============================================================================
 ##
 ## END
 ##
-
+##
 ##=============================================================================
+
