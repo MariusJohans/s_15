@@ -1,8 +1,5 @@
 
 ##=============================================================================
-## 
-## Artificial intelligence, health empowerment, and the 
-## general practitioner system.
 ##
 ## Marius O. Johansen, 2025
 ##
@@ -255,4 +252,5 @@ library(reshape2)
 ##
 ## END
 ##
+
 ##=============================================================================
